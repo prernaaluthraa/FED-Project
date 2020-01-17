@@ -1,154 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Weather App</title>
-    
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="style.css">
-    
-</head>
-
-
-
-<body>
-<nav class="navbar navbar-default" id="nav_bar">
-   <div class="container">
-       <div class="navbar-header">
-           <a href="index.html" class="navbar-brand navbar-link weather">
-               <img src="Images/logo.png" class="img-responsive" id="logo" alt=""><strong>Weather App & News App</strong>
-           </a>
-           <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol">
-               <span class="sr-only">Toggle navigation</span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-           </button>
-       </div>
-       
-       <div class="collapse navbar-collapse" id="navcol">
-          <ul class="nav navbar-nav navbar-right" id="nav_list">
-              <li><a href="current.html">Current Weather</a></li>
-              <li><a href="index2.html">Current News</a></li>
-              
-           
-          </ul>
-           
-       </div>
-       
-   </div>
-    
-</nav> 
-
-<div class="row" id="headRow">
-    <div class="col-md-12" id="colText">
-        <h2 class="text-center" id="colHeadText1"></h2>
-        <h1 class="text-center" id="colHeadText2"></h1>
-        
-        <ul class="list-inline" id="list_item">
-            <li id="list1"></li>
-            <li id="list2"></li>
-            <li id="list3"></li>
-            <li id="list4"></li>
-        </ul>
-    </div>
-</div>
-
-<div class="container" style="margin-bottom: 70px;">
-    <div class="row">
-        <div class="col-md-12">
-            <h2 class="text-center text-primary" style="margin-top:40px;">Welcome To Weather & News  App</h2>
-            <p class="text-center" id="welcome-paragraph">Weather app is a web-based application that allows users to search for current weather and news information  of different cities around the world. Users can search for weather information by city name and news information by category.</p>
-            <p class="text-center"> Created by: Dhruv Aggarwal(1710991221), Dishant Saini(1710991232)</p>
-        </div>
-    </div>
-    
-   
-        
-       
-        
-      
-    </div>
-
-
-<div class="footer">
-    <div class="container">
-        <div class="row text-center" style="padding-top:30px;">
-        </div>
-    </div>
-</div>
- 
-
-    
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>        
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
-    
-<script src="typed.js"></script> 
-              
-<script>
-$(document).ready(function(){
-    setTimeout(function(){
-        $("#colHeadText1").typed({
-            strings: ["The most simplest weather app. It's simple."],
-            typeSpeed: 0
-        })
-    }, 0);
-    
-    setTimeout(function(){
-        $("#colHeadText2").typed({
-            strings: ["Get weather information of any city."],
-            typeSpeed: 0
-        })
-    }, 2000);
-    
-    setTimeout(function(){
-        $("#list1").typed({
-            strings: ["Temperature"],
-            typeSpeed: 0
-        })
-    }, 4000);
-    
-    setTimeout(function(){
-        $("#list2").typed({
-            strings: ["Pressure"],
-            typeSpeed: 0
-        })
-    }, 6000);
-    
-    setTimeout(function(){
-        $("#list3").typed({
-            strings: ["Wind Speed"],
-            typeSpeed: 0
-        })
-    }, 8000);
-    
-    setTimeout(function(){
-        $("#list4").typed({
-            strings: ["Humidity"],
-            typeSpeed: 50
-        })
-    }, 10000);
-});
-</script>
-               
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <head>
+    <title>Welcome To Todo App</title>
+    <link rel="stylesheet" href="css/todo.css">
+    <script src="js/j.js"></script>
+    <script src="js/todo.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+  	<div class="container myBox">
+  		<h1 class="text-center heading">Todo App</h1>
+  		
+  		<div class="row">
+  			<div class="col-md-4">
+  				<p class="color">Select Color</p>
+  			</div>
+    			<div class="col-md-2">
+  				<label for="a">Red</label>
+  				<input type="radio" id="a" name="b" class="rdbtn" value="red"/>
+  			</div>
+  			<div class="col-md-2">
+  				<label for="a1">Green</label>
+  				<input type="radio" id="a1" name="b" class="rdbtn" value="green"/>
+  			</div>
+ 			<div class="col-md-2">
+ 				<label for="a2">Blue</label>
+  				<input type="radio" id="a2" name="b" class="rdbtn" value="blue"/>
+  			</div>
+  			 <div class="col-md-2">
+  			 	<input type="button" class="btn btn-warning" id="myBtn" value="Apply"/>
+  			</div>
+  		</div>
+  		 <div class="row">
+  			<div class="col-md-12 data1">
+  				<center><input type="text" id="myMain" class="mymain"/>
+  					<img src="img/plus.jpg"></center>
+  			</div>		
+  		</div>
+  		<!--<div class="box" style="background: red;">
+  			<table style="width: 100%;">
+  				<tr>
+  				<td><p>Hi</p></td>
+  				<td style="float: right;padding: 10px;" id="a"><i class="fa fa-trash" id="del"></td>
+  				</tr>
+  			</table>
+  		</div>-->
+  </body>
+ </html>

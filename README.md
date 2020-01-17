@@ -1,13 +1,4 @@
-# Weather-App-Using-Ajax
-Open weather map API provides current weather data, weather forecast data as well as historical weather data.
-With our application, we will make API calls by city name to the open weather map API using Ajax to get response in JSON format.
-
-The weather app will be used to:
-Get current weather information like temperature, pressure, humidity, wind speed, wind direction etc.
-Get weather forecast information of any city by city name and number of days.
-Features:
-Make API calls with Ajax.
-Open weather map API description.
-Get current weather information.
-Get weather forecast information.
-Use jquery plugin to animate text.
+# Todo-App
+ A Todo App has been created using HTML,CSS,Jquery,Bootstrap where the user can enter the text and can add it to main Html Page.The user can also delete the added portion of data on clicking on bin image .Also the user can choose the color of the background to be given to the data added.
+### Todo-App Url
+[Click ME!...](https://manik410.github.io/Todo-App/index)
